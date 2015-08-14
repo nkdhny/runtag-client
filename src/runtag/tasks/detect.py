@@ -4,8 +4,6 @@ import luigi
 import os.path
 import tempfile
 import json
-import boto3
-import boto3.session
 import runtag.preprocessor as pre
 import runtag.helpers as hlp
 import cv2

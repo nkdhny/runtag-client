@@ -1,7 +1,6 @@
 __author__ = 'nkdhny'
 
 import luigi
-import boto3
 
 class CreateResponseQueue(luigi.Task):
     sqs_callback_name = luigi.Parameter()
