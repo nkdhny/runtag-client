@@ -1,0 +1,9 @@
+aws:
+  region: "us-west-2"
+  detector:
+    queue: "detector"
+    account:
+      name: 'detection-service'
+  account:
+    key: "AKIAIALYWDFEHWJ7TOAA"
+    name: "detection-demo"
